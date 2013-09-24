@@ -1,0 +1,4 @@
+name: The Apiary
+markdown: redcarpet
+pygments: true
+permalink:  /news/:year/:month/:day/:title/
