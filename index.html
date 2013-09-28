@@ -3,115 +3,32 @@ layout: default
 title: The Apiary
 ---
 
-<div class="block-container">
-	<h1 style="margin-top: 40px">The Apiary</h1>
-	<h6>We make pretty things. And useful things. And silly things we find pretty or useful.</h6>
-	<div></div>
-</div>
+<h6>{{ site.tagline }}</h6>
 
 <div class="block-container">
 	<div class="color-stripe">
 		<h4>what we believe in &#x2192;</h4>
 	</div>
 	<div class="block-body">
-		<p style="text-align:center"><em>We're a group of dedicated upstarts who like to make things. We've got a range of skills running the gamut from technical to creative. We've got a passion for detail. We work on what we love. While we occasionally pick up contracts, the majority of our time is spent collaborating on original projects. Everyone's voice is heard, and when an idea stands out, we take it and run.</em></p>
+		<p style="text-align:center"><em>{{ site.overview }}</em></p>
 	</div>
-	<div></div>
 </div>
+
 <div class="block-container">
 	<div class="color-stripe">
 		<h4>what we're working on &#x2192;</h4>
 	</div>
 	<div class="block-body">
 		<div class="item-collection-column">
+			{% for project in site.projects %}
 			<div class="item-block">
-			<p><strong>$PROJECTNAME</strong><br/>Turn a bicycle into a synthesizer.</p></div>
-			<div class="item-block">
-			<p><strong>3DERPS</strong><br/>3D Electronic Role Playing System</p></div>
-			<div class="item-block">
-			<p><strong>The Apiary, LLC</strong><br/>Get founded and secure a studio.</p></div>
-			<div class="item-block">
-			<p><strong>Attention!</strong><br/>Put electronics in the class without distractions.</p></div>
-			<div class="item-block">
-			<p><strong>The Beast</strong><br/>A dark adventure game.</p></div>
-			<div class="item-block">
-			<p><strong>The Best</strong><br/>Vote for the best option.</p></div>
-			<div class="item-block">
-			<p><strong>Clangendum</strong><br/>Music-based platformer game.</p></div>
-			<div class="item-block">
-			<p><strong>Concierge</strong><br/>Personal style with group formats via git.</p></div>
-			<div class="item-block">
-			<p><strong>Curator</strong><br/>Streamline the saving, storage, and sharing of content on the web.</p></div>
-			<div class="item-block">
-			<p><strong>Daily Boss</strong><br/>Work together to beat a comical boss every day.</p></div>
-		</div>
-		<div class="item-collection-column">
-			<div class="item-block">
-			<p><strong>GitGraph</strong><br/>GitHub activity graphs.</p></div>
-			<div class="item-block">
-			<p><strong>The Gnarled Oak</strong><br/>An earthy fantasy geek bar.</p></div>
-			<div class="item-block">
-			<p><strong>GRACE</strong><br/>A vast 4X game.</p></div>
-			<div class="item-block">
-			<p><strong>GRID: Legacy</strong><br/>An expansion of the story started in TRON.</p></div>
-			<div class="item-block">
-			<p><strong>Hummice</strong><br/>Coldstone for hummus.</p></div>
-			<div class="item-block">
-			<p><strong>idcHOW</strong><br/>I don't care how or when: a travel search engine.</p></div>
-			<div class="item-block">
-			<p><strong>Immortality Sucks!</strong><br/>What if superheroes slowly lost their power?</p></div>
-			<div class="item-block">
-			<p><strong>instrument lending library</strong><br/>AirBnB for musical instruments.</p></div>
-			<div class="item-block">
-			<p><strong>JoeGabba</strong><br/>tracking global coffee production</p></div>
-			<div class="item-block">
-			<p><strong>laptop power cycler</strong><br/>Keep laptops plugged in and batteries healthy.</p></div>
-		</div>
-		<div class="item-collection-column">
-			<div class="item-block">
-			<p><strong>LEAFE</strong><br/>A flexible MMO centered on simplicity and mortality.</p></div>
-			<div class="item-block">
-			<p><strong>LightSkate</strong><br/>Arcade team slasher.</p></div>
-			<div class="item-block">
-			<p><strong>MAGE</strong><br/>Modular Abstracted Game Engine</p></div>
-			<div class="item-block">
-			<p><strong>MAPSS</strong><br/>RTS sim based on regulating an abstract population.</p></div>
-			<div class="item-block">
-			<p><strong>Mpathy</strong><br/>3D modeling system based on full-featured physical materials.</p></div>
-			<div class="item-block">
-			<p><strong>NPCFresh</strong><br/>Dynamic procedural NPC framework</p></div>
-			<div class="item-block">
-			<p><strong>Overload</strong><br/>Short film about a computer that did too much.</p></div>
-			<div class="item-block">
-			<p><strong>PixelForce</strong><br/>An expose on gaming graphics.</p></div>
-			<div class="item-block">
-			<p><strong>Primeval</strong><br/>Making traditional local sustainable living possible.</p></div>
-		</div>
-		<div class="item-collection-column">
-			<div class="item-block">
-			<p><strong>PsychoRPG</strong><br/>"Be afraid!"</p></div>
-			<div class="item-block">
-			<p><strong>RPGDry</strong><br/>Flexible web-based character sheets.</p></div>
-			<div class="item-block">
-			<p><strong>The Sensers</strong><br/>Story based on a dystopian sense-based economy.</p></div>
-			<div class="item-block">
-			<p><strong>Shatter</strong><br/>Short film about breaking things.</p></div>
-			<div class="item-block">
-			<p><strong>Time Piñata</strong><br/>Roll back Internet time.</p></div>
-			<div class="item-block">
-			<p><strong>TriTowers</strong><br/>Three-team class-based MOBA.</p></div>
-			<div class="item-block">
-			<p><strong>VisiSonor</strong><br/>Perform music + color</p></div>
-			<div class="item-block">
-			<p><strong>VocalEyes</strong><br/>Allow communication via series of blinks.</p></div>
-			<div class="item-block">
-			<p><strong>YAIIA</strong><br/>Yet another independant intelligent assistent.</p></div>
-			<div class="item-block">
-			<p><strong>Zeitpunkte</strong><br/>Scifi-fantasy-religion crossover epic.</p></div>
+			<p><strong>{{ project.name }}</strong><br/>{{ project.summary }}</p>
+			</div>
+			{% endfor %}
 		</div>
 	</div>
-	<div></div>
 </div>
+
 <div class="block-container">
 	<div class="color-stripe">
 		<h4>what we're writing &#x2192;</h4>
@@ -130,61 +47,28 @@ title: The Apiary
 		  {% endfor %}
 		</ul>
 	</div>
-	<div></div>
 </div>
+
 <div class="block-container">
 	<div class="color-stripe">
 		<h4>who we are &#x2192;</h4>
 	</div>
 	<div class="block-body">
 		<div class="item-collection-column">
+			{% for person in site.people %}
 			<div class="item-block">
-			<p><strong>Martin Bayer</strong><br/>music, storytelling, concepts</p></div>
-			<div class="item-block">
-			<p><strong>Steve Boyland</strong><br/>design, typography, concepts</p></div>
-			<div class="item-block">
-			<p><strong>Alexa Cain</strong><br/>storytelling, game design</p></div>
-			<div class="item-block">
-			<p><strong>Bobby Canciello</strong><br/>game design, storytelling, concepts</p></div>
-		</div>
-		<div class="item-collection-column">
-			<div class="item-block">
-			<p><strong>Liz Dinsmore</strong><br/>marketing</p></div>
-			<div class="item-block">
-			<p><strong>Jake Eger</strong><br/>hardware</p></div>
-			<div class="item-block">
-			<p><strong>Caleb Everett</strong><br/>development, concepts</p></div>
-			<div class="item-block">
-			<p><strong>Liz Gerger</strong><br/>design, photography, video concepts</p></div>
-		</div>
-		<div class="item-collection-column">
-			<div class="item-block">
-			<p><strong>Michael Gruber</strong><br/>development</p></div>
-			<div class="item-block">
-			<p><strong>CJ Gutch</strong><br/>finance, legal</p></div>
-			<div class="item-block">
-			<p><strong>Tim Honeywell</strong><br/>interaction design, management, concepts</p></div>
-			<div class="item-block">
-			<p><strong>Andrew Lilja</strong><br/>concepts, psychology, development</p></div>
-		</div>
-		<div class="item-collection-column">
-			<div class="item-block">
-			<p><strong>Kyle McCabe</strong><br/>concepts, hardware</p></div>
-			<div class="item-block">
-			<p><strong>Glen Oakley</strong><br/>devops, system, hardware, development</p></div>
-			<div class="item-block">
-			<p><strong>Teddy Sudol</strong><br/>tools, development</p></div>
-			<div class="item-block">
-			<p><strong>Nick Vitovitch</strong><br/>development, game design, concepts</p></div>
+			<p><strong>{{ person.name }}</strong><br/>{{ person.summary }}</p>
+			</div>
+			{% endfor %}
 		</div>
 	</div>
-	<div></div>
 </div>
+
 <div class="block-container">
 	<div class="color-stripe">
 		<div class="center-image-insert">
 			<div class="logo-small">
-				<img src="static/images/hexred.png" alt="Logo for The Apiary" width="50px" height="50px">
+				<img src="/assets/images/hexred.png" alt="Logo for The Apiary" width="50px" height="50px">
 			</div>
 		</div>
 	</div>

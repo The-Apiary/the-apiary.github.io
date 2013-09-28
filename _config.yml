@@ -1,4 +1,140 @@
 name: The Apiary
 markdown: redcarpet
 pygments: true
-permalink:  /news/:year/:month/:day/:title/
+permalink: /news/:year/:month/:day/:title/
+
+tagline: |
+  We make pretty things. And useful things. And silly things we find pretty or useful.
+
+overview: |
+  We're a group of dedicated upstarts who like to make things. We've got a range of skills running the gamut from technical to creative. We've got a passion for detail. We work on what we love. While we occasionally pick up contracts, the majority of our time is spent collaborating on original projects. Everyone's voice is heard, and when an idea stands out, we take it and run.
+
+people:
+- name: Martin Bayer
+  summary: music, storytelling, concepts
+- name: Steve Boyland
+  summary: design, typograpy, concepts
+- name: Alexa Cain
+  summary: storytelling, game design
+- name: Bobby Canciello
+  summary: game design, storytelling, concepts
+- name: Liz Dinsmore
+  summary: marketing
+- name: Jake Eger
+  summary: hardware
+- name: Caleb Everett
+  summary: development, concepts
+- name: Liz Gerger
+  summary: design, photography, video concepts
+- name: Michael Gruber
+  summary: development
+- name: CJ Gutch
+  summary: finance, legal
+- name: Tim Honeywell
+  summary: interaction design, management, concepts
+- name: Andrew Lilja
+  summary: concepts, psychology, development
+- name: Kyle McCabe
+  summary: concepts, hardware
+- name: Glen Oakley
+  summary: devops, system, hardware, development
+- name: Teddy Sudol
+  summary: tools, development
+- name: Nick Vitovitch
+  summary: development, game design, concepts
+
+projects:
+- name: The Apiary, LLC
+  summary: Get founded and secure a studio.
+- name: The Beast
+  summary: A dark adventure game.
+- name: Clangendum
+  summary: Music-based platformer game.
+- name: Crimson Scythe
+  summary: A social experiment in the style of an MMO.
+- name: Curator
+  summary: Streamline the saving, storage, and sharing of content on the web.
+- name: Daily Boss
+  summary: Work together to beat a comical boss every day.
+- name: GitGraph
+  summary: GitHub activity graphs.
+- name: "GRID: Legacy"
+  summary: An expansion of the story started in TRON.
+- name: JoeGabba
+  summary: tracking global coffee production
+- name: Time Piñata
+  summary: Roll back Internet time.
+
+concepts:
+- name: $PROJECTNAME
+  summary: Turn a bicycle into a synthesizer.
+- name: 3DERPS
+  summary: 3D Electronic Role Playing System
+- name: Attention!
+  summary: Put electronics in the class without distractions.
+- name: The Best
+  summary: Vote for the best option.
+- name: Concierge
+  summary: Personal style with group formats via git.
+- name: Dataverse
+  summary: Standardized data formats & archiving.
+- name: earned rank/role game
+  summary: the ultimate rpg
+- name: generative music platformer
+  summary: Use songs to create game levels.
+- name: The Gnarled Oak
+  summary: An earthy fantasy geek bar.
+- name: GRACE
+  summary: A vast 4X game.
+- name: Growth
+  summary: A game playing with the concept of infectious ideas.
+- name: Hummice
+  summary: Coldstone for hummus.
+- name: idcHOW
+  summary: "I don't care how or when: a travel search engine."
+- name: Immortality Sucks!
+  summary: What if superheroes slowly lost their power?
+- name: instrument lending library
+  summary: AirBnB for musical instruments.
+- name: laptop power cycler
+  summary: Keep laptops plugged in and batteries healthy.
+- name: lastgraph
+  summary: Last.fm activity graphs.
+- name: LEAFE
+  summary: A flexible MMO centered on simplicity and mortality.
+- name: LightSkate
+  summary: Arcade team slasher.
+- name: MAGE
+  summary: Modular Abstracted Game Engine
+- name: MAPSS
+  summary: RTS sim based on regulating an abstract population.
+- name: Mpathy
+  summary: 3D modeling system based on full-featured physical materials.
+- name: NPCFresh
+  summary: Dynamic procedural NPC framework
+- name: Overload
+  summary: Short film about a computer that did too much.
+- name: PixelForce
+  summary: An expose on gaming graphics.
+- name: Primeval
+  summary: Making traditional local sustainable living possible.
+- name: PsychoRPG
+  summary: "Be afraid!"
+- name: RPGDry
+  summary: Flexible web-based character sheets.
+- name: SCP RPG
+  summary: An RPG set in the SCP universe.
+- name: The Sensers
+  summary: Story based on a dystopian sense-based economy.
+- name: Shatter
+  summary: Short film about breaking things.
+- name: TriTowers
+  summary: Three-team class-based MOBA.
+- name: VisiSonor
+  summary: Perform music + color
+- name: VocalEyes
+  summary: Allow communication via series of blinks.
+- name: YAIIA
+  summary: Yet another independant intelligent assistant.
+- name: Zeitpunkte
+  summary: Scifi-fantasy-religion crossover epic.

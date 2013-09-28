@@ -1,0 +1,115 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+/*
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #FFF;
+  font: 13.34px Helvetica, Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+*/
+
+
+/*
+* Modified and expanded by Tim Honeywell
+* for The Apiary
+* 2013/09/05
+*/
+
+
+/* #Basic Styles
+================================================== */
+    body {
+/*        background: #ffd990; */
+        color: #000000;
+ }
+
+/* #Typography
+================================================== */
+    h1, h2, h3, h4, h5, h6 { color: #84331f; }
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+    h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px; text-align: center; }
+    h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; display: inline; }
+    h6 { font-size: 14px; line-height: 21px; text-align: center; }
+    .subheader { color: #84331f; }
+
+    p { margin: 0 0 20px 0; color: #84331f;}
+    p.lead { font-size: 21px; line-height: 27px; color: #84331f;  }
+
+    strong { font-weight: bold; color: #84331f; }
+
+/*  Blockquotes  */
+    blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #84331f; font-style: italic; }
+    blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #b44b34; }
+    blockquote cite { display: block; font-size: 12px; color: #b44b34; }
+    blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #b44b34; }
+
+    hr { border: solid #b44b34; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+
+
+/* #Links
+================================================== */
+    a, a:visited { color: #b44b34; text-decoration: underline; outline: 0; }
+
+
+/*
+baseline        #000000
+background      #ffd990
+highlight 1     #fdba58
+hightlight 2    #f99d1c
+features        #b44b34
+general text    #84331f
+*/
+
+/* #Page Structure
+================================================== */
+    .color-stripe { overflow:hidden; background-color: #f99d1c; padding: 5px; margin-top: 0px; margin-bottom: 10px; }
+    .block-container { overflow:hidden; height: auto; background-color: #ffd990}
+    .block-body { height: auto; margin-left: 6%; margin-right: 6%; }
+    .footer-text { text-align: center; }
+    .item-collection-column { width: 20%; margin-left: 1%; margin-right: 1%; float: left; }
+    .item-block { margin-top: 1px; margin-bottom: 1px; }
+    .post-preview { margin-left: 1%; margin-right: 1%; }
+    .center-image-insert {
+        color: white;
+        position: relative;
+        top: 50%;
+        left: 0px;
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        visibility: visible;
+        display: block
+    }
+    .logo-small {
+        margin-left: -25px;
+        position: relative;
+        left: 50%;
+        width: 50px;
+        height: 50px;
+        visibility: visible
+    }
+
+
