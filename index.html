@@ -65,7 +65,21 @@ title: The Apiary
 </div>
 
 <div class="block-container">
+
 	<div class="color-stripe">
-			</div>
+		<h4>how to reach us &#x2192;</h4>
 	</div>
+
+	<!-- quick & easy contact links -->
+
+	<div class="block-body">
+		{% for channel in site.links %}
+			<div class="post-preview">
+				<p>
+					<a href="{{ channel.link }}"><strong>{{ channel.name }}</strong></a>
+				</p>
+			</div>
+		{% endfor %}
+	</div>
+
 </div>

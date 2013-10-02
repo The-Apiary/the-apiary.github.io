@@ -138,3 +138,10 @@ concepts:
   summary: Yet another independant intelligent assistant.
 - name: Zeitpunkte
   summary: Scifi-fantasy-religion crossover epic.
+links:
+- name: email
+  link: mailto:theapiaryco@gmail.com
+- name: Twitter
+  link: https://twitter.com/theapiaryco
+- name: GitHub
+  link: https://github.com/The-Apiary
