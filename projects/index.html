@@ -1,0 +1,57 @@
+---
+layout: default
+title: "The Apiary :: Projects"
+---
+
+<div class="block-container" id="projects">
+
+	<!-- listings of current, complete, and fluff -->
+
+	<div class="block-body">
+		<h3>Projects & Ideas by The Apiary</h3>
+		<hr />
+
+		<h4>Current Projects</h4>
+		<p><small><em>Contributions welcome on respective GitHub projects.</em></small></p>
+		{% for post in site.categories['ideas'] reversed %}
+			{% if post.status == 'active' %}
+				<div class="post-preview">
+					<p>
+					<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a><br />
+					{{ post.summary }}
+					</p>
+				</div>
+			{% endif %}
+		{% endfor %}
+
+		<hr />
+		<h4>Past Projects</h4>
+		<p><small><em>Completed projects released in either OSS or for purchase/license.</em></small></p>
+		{% for post in site.categories['ideas'] reversed %}
+			{% if post.status == 'complete' %}
+				<div class="post-preview">
+					<p>
+					<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a><br />
+					{{ post.summary }}
+					</p>
+				</div>
+			{% endif %}
+		{% endfor %}
+
+		<hr />
+		<h4>Future Ideas</h4>
+		<p><small><em>If you decide to work on one of these, we'd appreciate it if you'd let us know. The idea is open source, but hey, we posted it here for a reason.</em></small></p>
+		{% for post in site.categories['ideas'] reversed %}
+			{% if post.status == 'idea' %}
+				<div class="post-preview">
+					<p>
+					<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a><br />
+					{{ post.summary }}
+					</p>
+				</div>
+			{% endif %}
+		{% endfor %}
+
+	</div>
+
+</div>
