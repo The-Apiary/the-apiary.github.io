@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "Overload"
+date:   2013-03-24
+categories: ideas
+status: idea
+summary: Short film about a computer that did too much.
+---

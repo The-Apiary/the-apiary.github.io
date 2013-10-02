@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "Hummice"
+date:   2013-03-24
+categories: ideas
+status: idea
+summary: Coldstone for hummus.
+---

@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "The Best"
+date:   2013-03-24
+categories: ideas
+status: idea
+summary: Vote for the best selection.
+---

@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "Mpathy"
+date:   2013-03-24
+categories: ideas
+status: idea
+summary: 3D modeling engine based on full-featured physical material manipulation.
+---

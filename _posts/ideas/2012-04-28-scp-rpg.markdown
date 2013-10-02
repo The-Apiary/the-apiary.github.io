@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "SCP RPG"
+date:   2013-03-24
+categories: ideas
+status: idea
+summary: An RPG set in the SCP universe.
+---

@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "MAPSS"
+date:   2013-03-24
+categories: ideas
+status: active
+summary: RTS sim based on regulating an abstract population.
+---

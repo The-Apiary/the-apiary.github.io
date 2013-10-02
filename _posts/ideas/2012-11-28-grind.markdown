@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "Grind"
+date:   2013-03-24
+categories: ideas
+status: idea
+summary: The Ultimate RPG
+---

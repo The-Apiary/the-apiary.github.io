@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "Curator"
+date:   2013-03-24
+categories: ideas
+status: idea
+summary: Streamline the saving, storage, and sharing of content on the web.
+---

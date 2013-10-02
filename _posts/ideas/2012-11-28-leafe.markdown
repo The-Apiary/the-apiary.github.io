@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "LEAFE"
+date:   2013-03-24
+categories: ideas
+status: active
+summary: A flexible MMO centered on simplicity and mortality.
+---

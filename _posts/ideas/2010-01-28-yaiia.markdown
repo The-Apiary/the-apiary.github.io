@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "YAIIA"
+date:   2013-03-24
+categories: ideas
+status: idea
+summary: Yet Another Independant Intelligent Assistant
+---

@@ -1,0 +1,7 @@
+---
+layout: person
+title:  "Jake Eger"
+date:   2013-08-31
+categories: people
+summary: fill
+---
