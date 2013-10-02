@@ -3,65 +3,86 @@ layout: default
 title: The Apiary
 ---
 
-<h6>{{ site.tagline }}</h6>
-
 <div class="block-container">
+
 	<div class="color-stripe">
-		<h4>what we believe in &#x2192;</h4>
+		<a href="/about"><h4>about us &#x2192;</h4></a>
 	</div>
+
+	<!-- brief overview of what The Apiary does -->
+
 	<div class="block-body">
-		<p style="text-align:center"><em>{{ site.overview }}</em></p>
+		<h6><em>{{ site.tagline }}</em></h6>
+		<p>{{ site.overview }}</p>
 	</div>
+
 </div>
 
 <div class="block-container">
+
 	<div class="color-stripe">
-		<h4>what we're working on &#x2192;</h4>
+		<a href="/projects"><h4>what we're working on &#x2192;</h4></a>
 	</div>
+
+	<!-- listing of current projects -->
+
 	<div class="block-body">
-		<div class="item-collection-column">
-			{% for project in site.projects %}
-			<div class="item-block">
-			<p><strong>{{ project.name }}</strong><br/>{{ project.summary }}</p>
-			</div>
-			{% endfor %}
-		</div>
+		{% for post in site.categories['ideas'] reversed %}
+			{% if post.status == 'active' %}
+				<div class="post-preview">
+					<p>
+					<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a><br />
+					{{ post.summary }}
+					</p>
+				</div>
+			{% endif %}
+		{% endfor %}
 	</div>
+
 </div>
 
 <div class="block-container">
+
 	<div class="color-stripe">
-		<h4>what we're writing &#x2192;</h4>
+		<a href="/blog"><h4>what we're writing &#x2192;</h4></a>
 	</div>
+
+	<!-- the 5 most recent blog posts -->
+
 	<div class="block-body">
-		<ul class="posts">
-		  {% for post in site.posts %}
+		  {% for post in site.categories['posts'] limit:5 %}
 			<div class="post-preview">
 				<p>
 				<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a><br />
-				<small>posted on <span>{{ post.date | date_to_string }}</span> by <strong>{{ post.author }}</strong></small><br/>
-				{{ entry.content | strip_html | truncatewords: 20 }}
+				<small>posted on <span>{{ post.date | date_to_string }}</span> by <strong>{{ post.author }}</strong></small><br />
+				{{ post.content | strip_html | truncatewords: 20 }}<br />
 				<a href="{{ post.url }}">read more &raquo;</a>
 				</p>
 			</div>
 		  {% endfor %}
-		</ul>
 	</div>
+
 </div>
 
 <div class="block-container">
+
 	<div class="color-stripe">
-		<h4>who we are &#x2192;</h4>
+		<a href="/team"><h4>who we are &#x2192;</h4></a>
 	</div>
+
+	<!-- picture collage of people and background/roles -->
+
 	<div class="block-body">
-		<div class="item-collection-column">
-			{% for person in site.people %}
-			<div class="item-block">
-			<p><strong>{{ person.name }}</strong><br/>{{ person.summary }}</p>
+		{% for post in site.categories['people'] reversed %}
+			<div class="post-preview">
+				<p>
+				<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a><br />
+				{{ post.summary }}
+				</p>
 			</div>
-			{% endfor %}
-		</div>
+		{% endfor %}
 	</div>
+
 </div>
 
 <div class="block-container">
