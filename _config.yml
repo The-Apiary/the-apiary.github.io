@@ -7,7 +7,12 @@ tagline: |
   We make pretty things. And useful things. And silly things we find pretty or useful.
 
 overview: |
-  We're a group of dedicated upstarts who like to make things. We've got a range of skills running the gamut from technical to creative. We've got a passion for detail. We work on what we love. While we occasionally pick up contracts, the majority of our time is spent collaborating on original projects. Everyone's voice is heard, and when an idea stands out, we take it and run.
+  We're a group of dedicated upstarts who like to make things.
+  We've got a range of skills running the gamut from technical to creative.
+  We've got a passion for detail.
+  We work on what we love.
+  While we occasionally pick up contracts, the majority of our time is spent collaborating on original projects.
+  Everyone's voice is heard, and when an idea stands out, we take it and run.
 
 links:
 - name: email
@@ -16,3 +21,51 @@ links:
   link: https://twitter.com/theapiaryco
 - name: GitHub
   link: https://github.com/The-Apiary
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://theapiary.github.io'
+  media: 'media'
+  metadata:
+    _posts/posts:
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "posts"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+    _posts/people:
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "people"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "person"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+    _posts/ideas:
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "ideas"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "idea"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
