@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "wp"
+date:   2013-03-24
+categories: ideas
+status: active
+summary: Extract a color profile in any format from any image.
+---

@@ -1,6 +1,6 @@
 ---
 layout: idea
-title:  "Clangedum"
+title:  "Clangendum"
 date:   2013-03-24
 categories: ideas
 status: active
