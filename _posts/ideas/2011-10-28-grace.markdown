@@ -3,6 +3,6 @@ layout: idea
 title:  "GRACE"
 date:   2013-03-24
 categories: ideas
-status: active
+status: idea
 summary: "Galactic Resource Acquisition & Commercial Enterprise: a vast 4X game."
 ---
