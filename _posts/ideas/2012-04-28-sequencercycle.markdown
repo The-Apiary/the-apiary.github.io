@@ -1,8 +1,8 @@
 ---
 layout: idea
-title:  "$PROJECTNAME"
+title:  "SequencerCycle"
 date:   2013-03-24
 categories: ideas
-status: idea
+status: concept
 summary: Turn a bicycle into a synthesizer.
 ---

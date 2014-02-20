@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "186.41"
+date:   2013-03-24
+categories: ideas
+status: concept
+summary: A musical composition constructed on the concept of the American currency system.
+---

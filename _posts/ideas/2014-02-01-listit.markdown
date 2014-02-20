@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "ListIt"
+date:   2013-03-24
+categories: ideas
+status: concept
+summary: Build a list of items from barcodes and/or QR codes.
+---

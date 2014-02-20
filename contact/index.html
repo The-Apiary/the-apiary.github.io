@@ -1,0 +1,24 @@
+---
+layout: default
+title: "The Apiary Group :: Contact"
+---
+
+<div class="block-container" id="contact">
+
+	<div class="block-body">
+		<h3>Contact The Apiary Group</h3>
+		<hr />
+
+		<div class="block-body">
+			{% for channel in site.links %}
+				<div class="post-preview">
+					<p>
+						<a href="{{ channel.link }}"><strong>{{ channel.name }}</strong></a>
+					</p>
+				</div>
+			{% endfor %}
+		</div>
+
+	</div>
+
+</div>

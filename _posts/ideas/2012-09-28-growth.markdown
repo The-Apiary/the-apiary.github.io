@@ -3,6 +3,6 @@ layout: idea
 title:  "Growth"
 date:   2013-03-24
 categories: ideas
-status: idea
+status: concept
 summary: A game playing with the concept of infectious ideas.
 ---

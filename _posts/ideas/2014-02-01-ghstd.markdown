@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "GHSTD"
+date:   2013-03-24
+categories: ideas
+status: ongoing
+summary: Musical project.
+---

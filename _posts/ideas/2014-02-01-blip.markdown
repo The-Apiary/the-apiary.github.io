@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "BLIP"
+date:   2013-03-24
+categories: ideas
+status: indev
+summary: Brake Light Indicator for Pressure
+---

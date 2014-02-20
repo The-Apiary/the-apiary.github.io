@@ -1,1 +1,1 @@
-Source for The Apiary's [website](http://theapiary.co).
+Source for The Apiary's [website](http://theapiarygroup.com).

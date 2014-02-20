@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "Neurotic Entertainment"
+date:   2013-03-24
+categories: ideas
+status: concept
+summary: Electronic entertainment studio.
+---

@@ -1,22 +1,20 @@
-name: The Apiary
+name: The Apiary Group
 markdown: redcarpet
 pygments: true
 permalink: /:categories/:title
 
 tagline: |
-  We make pretty things. And useful things. And silly things we find pretty or useful.
+  We make pretty things. And useful things. And silly things we find pretty or useful.<br /><br />
 
 overview: |
-  We're a group of dedicated upstarts who like to make things.
-  We've got a range of skills running the gamut from technical to creative.
-  We've got a passion for detail.
+  We're a group of dedicated upstarts who like to make things.<br />
+  We've got a range of skills running the gamut from technical to creative.<br />
+  We've got a passion for detail.<br />
   We work on what we love.
-  While we occasionally pick up contracts, the majority of our time is spent collaborating on original projects.
-  Everyone's voice is heard, and when an idea stands out, we take it and run.
 
 links:
 - name: email
-  link: mailto:theapiaryco@gmail.com
+  link: mailto:theapiarygroup@gmail.com
 - name: Twitter
   link: https://twitter.com/theapiaryco
 - name: GitHub
@@ -24,7 +22,7 @@ links:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://theapiary.github.io'
+  siteurl: 'http://the-apiary.github.io'
   media: 'media'
   metadata:
     _posts/posts:

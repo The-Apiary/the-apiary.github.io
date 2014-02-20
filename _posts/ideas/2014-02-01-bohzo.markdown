@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "Bohzo"
+date:   2013-03-24
+categories: ideas
+status: ongoing
+summary: electronic music wizard
+---

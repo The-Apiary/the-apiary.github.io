@@ -1,8 +1,8 @@
 ---
 layout: idea
-title:  "The Apiary, LLC"
+title:  "The Apiary Group, LLC"
 date:   2013-03-24
 categories: ideas
-status: active
+status: indev
 summary: Get funded, founded & furnished.
 ---

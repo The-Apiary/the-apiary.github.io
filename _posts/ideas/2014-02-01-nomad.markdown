@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "Nomad"
+date:   2013-03-24
+categories: ideas
+status: concept
+summary: Location-based multi-device collaborative class-based MMORPG.
+---

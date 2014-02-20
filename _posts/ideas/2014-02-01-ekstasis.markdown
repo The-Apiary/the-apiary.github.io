@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "Ekstasis"
+date:   2013-03-24
+categories: ideas
+status: concept
+summary: International network of live-work cooperatives.
+---

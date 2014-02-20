@@ -3,6 +3,6 @@ layout: idea
 title:  "JoeGabba"
 date:   2013-03-24
 categories: ideas
-status: idea
+status: germinating
 summary: Tracking global coffee production.
 ---

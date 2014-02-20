@@ -3,6 +3,6 @@ layout: idea
 title:  "idcHOW"
 date:   2013-03-24
 categories: ideas
-status: idea
+status: concept
 summary: "I don't care how or when: a travel search engine."
 ---

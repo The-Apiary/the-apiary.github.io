@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "Alternia"
+date:   2013-03-24
+categories: ideas
+status: concept
+summary: A series of ideas based on alternate outcomes in history.
+---

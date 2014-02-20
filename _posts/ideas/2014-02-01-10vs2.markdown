@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "10vs2"
+date:   2013-03-24
+categories: ideas
+status: ongoing
+summary: An exploration of the boundaries between analog and digital art.
+---

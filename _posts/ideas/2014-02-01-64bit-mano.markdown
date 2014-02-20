@@ -1,0 +1,8 @@
+---
+layout: idea
+title:  "64-bit Mano's Machine"
+date:   2013-03-24
+categories: ideas
+status: concept
+summary: Expand the original 16-bit Machine into full 64-bits!
+---
